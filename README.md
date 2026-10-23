@@ -69,7 +69,7 @@ Outputs per run: `report.md`, `findings.json`, `shots/` and `repro/`.
 - `webtest/oracles.py`: the rules that decide what is a bug, and which actions are risky. No browser needed, so they are unit tested directly.
 - `webtest/report.py`: the report, the reproduction scripts and the run comparison.
 - `demo_app/server.py`: the demo shop with the seeded bugs.
-- `.github/workflows/webtest.yml`: a CI workflow that runs the agent on every pull request and nightly. I wrote it but have not run it on GitHub yet.
+- A CI workflow that runs the agent on every pull request and nightly is written but not in this repo yet, and I have not run it on GitHub.
 
 ## Limits
 
